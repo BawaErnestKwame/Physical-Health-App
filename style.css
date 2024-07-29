@@ -2,9 +2,9 @@
       margin: 0;
       padding: 0;
 }
-body{
+ body{
       display: flex;
-}
+} 
 .page{
       width: 100%;
       height: 100%;
@@ -22,11 +22,12 @@ body{
       
 }
 .maincontainer{
-      background-image: url(./backgrond.jpg);
+      background-image: url(./images/backgrond.jpg);
       width: 100%;
       height: 98vh;
 background-position: center;
 background-size: cover;
+margin-bottom: 180px;
 }
 
 .navbar{
@@ -38,6 +39,11 @@ background-size: cover;
       justify-content: center;
       justify-content: space-around;
       flex-wrap: wrap;
+       position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 999;
+      left: 0; 
 }
 .navbar ul{
       margin-top: 10px;
@@ -740,7 +746,7 @@ margin-left: 20px;
       color: rgb(1, 78, 27);
 }
 .container7{
-      background-image: linear-gradient(#00000096,#0000008e),url(./backgrond.jpg);
+      background-image: linear-gradient(#00000096,#0000008e),url(./images/backgrond.jpg);
       background-position: center;
       background-size: cover;
       width: 100%;
@@ -756,9 +762,8 @@ margin-left: 20px;
       
       
 }
-.continer7_text p{
-      
-}
+
+
 .container8{
       background-color: rgb(241, 245, 245);
       width: 100%;
@@ -907,7 +912,7 @@ margin-left: 20px;
       padding: 10px;
 } 
 .chyro{
-      color: rgb(3, 10, 6);
+      color: rgb(250, 250, 250);
       gap: 140px;
       display: flex;
       text-align: center;
